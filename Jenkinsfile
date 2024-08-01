@@ -28,6 +28,7 @@ pipeline {
                 }
             }
         }
+        
         stage('Merge to Production') {
             when {
                 branch 'staging'
